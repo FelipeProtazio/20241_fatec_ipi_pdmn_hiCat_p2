@@ -12,7 +12,9 @@ export default function App() {
       <Stack.Navigator
         screenOptions={{
           headerShown: false,
-        }}>
+        }}
+        initialRouteName='Home'
+        >
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Generator" component={Generator} />
       </Stack.Navigator>
